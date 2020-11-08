@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Used lighter background color for better contrast. */
+body {
+    background-color: #fbfef799;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* For better contrast, used a darker shade and added "ff" alpha value to make the base color fully opaque. */
+    background-color: #2a617cff;
+    color: #ffffff;
+}
+
+/* Removed font-size property for better semantic tagging. */
+ .header h1 {
+    display: inline-block;
+}
+
+/* Changed from '.header h1 .seo' to '.header span' (simpler and more specific). For better contrast, added the alpha value '99' to the original HEX color of the span. */
+.header span {
+    color: #fbfef799;
+}
+
+/* Changed generic 'div' tag to more specific 'nav' tag. */
+.header nav {
+    padding-top: 15 px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Changed from '.header div ul' to '.header nav ul'. */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Changed from '.header div ul li' to '.header nav ul li.' */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* Added font-size property */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Increased font-size for better readability. */
+p {
+    font-size: 20px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+   margin-right: 20px;
+   padding: 20px;
+   clear: both;
+   float: right;
+   width: 20%;
+   height: 100%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Changed background color to match darker blue used in '.header' section. */
+   background-color: #2a617cff;
+    }
+
+/* For cleaner code, combined specs for three classes into one. */
+.benefit-lead, .benefit-brand, .benefit-cost {
+        margin-bottom: 32px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+/* Combined specs for three h3 classes into a single set of specs.*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 5px;
+    text-align: center;
+}    
+
+/* Combined specs for three benefits image classes.*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 110px;
+    color: white
+}
+
+/* For cleaner code, combined specs for three classes into one. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-bottom: 100px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Used darker background color to match color used in '.header' section and to improve contrast. */   
+    background-color: #2a617cff;
+    color: #ffffff;
+}
+
+/* For cleaner code, combined specs for three image classes into one. */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* For cleaner code, combined specs for three h2 classes into one. Removed font-size property for better semantic tagging.*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+}
+
+/* For better semantic tagging, changed '.footer' class attribute to a 'footer' tag and removed font-size property. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Added ID attribute for special credit line in footer. Increased value of font-size property. */
+#footer-love {
+font-size: 80;
+font-weight: bold;
+}
